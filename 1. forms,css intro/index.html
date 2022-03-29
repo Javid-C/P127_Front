@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="height: 700vh;">
+    <div align="center">
+        <h1>Javid Asadullayev</h1>
+        <span>javid.asadullayev@code.edu.az</span>
+    </div>
+
+    <img width="200" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="View">
+    <div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod sapiente corporis eveniet. Culpa
+            exercitationem commodi odit veniam! Voluptate, cum incidunt?</p>
+        <div>
+            <ol>
+                <li>
+                    <strong>About me.</strong>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <em>Quo, quia similique</em>!
+                        Ratione
+                        quisquam
+                        rerum atque.</span>
+                </li>
+                <li>
+                    <strong>Classes.</strong>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, quia similique! Ratione
+                        quisquam
+                        rerum atque.</span>
+                    <ul type="circle">
+                        <li>Task 1</li>
+                        <li>Task 1</li>
+                        <li>Task 1</li>
+                        <li>Task 1</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Interest.</strong>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, quia similique! Ratione
+                        quisquam
+                        rerum atque.</span>
+                </li>
+            </ol>
+        </div>
+    </div>
+
+    <div style="margin-bottom: 50px;">
+        <table border=1>
+            <caption>Presidents</caption>
+            <thead>
+                <tr>
+                    <th colspan="2">Fullname</th>
+                    <th>Email</th>
+                    <th>Website</th>
+                    <th>Group</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Joe</td>
+                    <td>Biden</td>
+                    <td>joe@example.com</td>
+                    <td>example.com</td>
+                    <td rowspan="3">P127</td>
+                </tr>
+                <tr>
+                    <td>Trump</td>
+                    <td>Donald</td>
+                    <td>trump@example.com</td>
+                    <td>example.com</td>
+                </tr>
+                <tr>
+                    <td>Barack</td>
+                    <td>Obama</td>
+                    <td>barack@example.com</td>
+                    <td>example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <main></main>
+    <aside></aside>
+
+    <!-- <span>
+        this is pan element
+    </span>
+    <p>this is paragraph</p> -->
+    <form novalidate autocomplete="off" action="" method="post">
+        <!-- 
+            {
+                firsname:Javid,
+                Surname:Asadullayev
+            }
+         -->
+        <label for="firstname">Firstname</label><br>
+        <input type="text" id="firstname" name="firstname" placeholder="Type your name" minlength="3" maxlength="20"
+            size="20" required><br>
+        <label for="surname">Surname</label><br>
+        <input type="text" id="surname" name="surname" placeholder="Type your surname" required><br>
+        <label for="_email">Email address</label><br>
+        <input type="email" id="_email" required value="javid.asadullayev@code.edu.az" disabled><br>
+        <label for="pw">Password</label><br>
+        <input type="password" name="" id="pw"><br>
+        <label for="birthday">Birthday</label><br>
+        <input type="time" id="birthday"><br>
+        <label for="num">Count</label><br>
+        <input type="number" name="" id="num" min="0" max="100"><br>
+        <label for="movies">Movies</label><br>
+        <input type="checkbox"> <label for="">Interstellar</label><br>
+        <input type="checkbox"><label for="">Inception</label><br>
+        <input type="checkbox"><label for="">Dark knight</label><br>
+        <label for="">Gender</label><br>
+        <input type="radio" id="male" name="gender"> <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender"><label for="female">Female</label><br>
+        <input type="radio" id="other" name="mmovie"><label for="other">Other</label><br>
+        <label for="phone">Phone</label><br>
+        <input type="tel" name="" id="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}"><br>
+        <label for="">Range</label><br>
+        <input type="range" id="range" min="0" max="100"><br>
+        <input type="color"><br>
+        <input type="url" placeholder="Url">
+        <input type="file" multiple accept="image/*"><br>
+        <input type="hidden" name=""><br>
+        <input type="search" placeholder="search"><br>
+        <input type="reset"><br>
+        <label for="message"></label><br>
+        <textarea name="" id="message" cols="50" rows="20"></textarea><br>
+        <label for="search">Search Cars</label><br>
+
+        <input type="text" list="cars" id="search"><br>
+        <datalist id="cars">
+            <option value="Mercedes">Mercedes</option>
+            <option value="BMW">BMW</option>
+            <option value="Lamborghini">Lamborghini</option>
+            <option value="Jaguar">Jaguar</option>
+            <option value="Pagani zonda">Pagani zonda</option>
+        </datalist>
+        <br><button type="submit">Submit</button>
+    </form>
+
+
+</body>
+
+</html>
