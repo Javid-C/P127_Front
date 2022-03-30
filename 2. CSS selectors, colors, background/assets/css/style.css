@@ -1,0 +1,130 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+body {
+  height: 500vh;
+}
+
+/* #article {
+  color: yellowgreen;
+}
+.heading {
+  color: red;
+}
+
+#text {
+  color: blue;
+}
+
+h1 {
+  color: green;
+}
+
+h2 {
+  color: gray;
+}
+span {
+  color: crimson;
+}
+
+.title {
+  font-size: 12px;
+} */
+/* 
+.heading.title.p127 {
+  color: brown;
+}
+
+.heading {
+  font-size: 20px;
+}
+
+.wrapper #text {
+  color: yellow;
+}
+
+.wrapper .name {
+  color: aqua;
+} */
+/* 
+div span {
+  color: red;
+}
+
+h3.wrapper {
+  color: lawngreen;
+} */
+
+/* .another,
+h3.wrapper,
+#text {
+  color: salmon;
+}
+
+#h1,
+#h2,
+#h3 {
+  color: green;
+} */
+
+/* .wrapper > h1 {
+  color: red;
+}
+
+ul + p {
+  color: blue;
+}
+
+p ~ h2 {
+  color: brown;
+}
+
+[class] {
+  color: teal;
+}
+
+[href] {
+  color: lightslategray;
+}
+
+[href="https://www.google"]
+{
+  font-size: 30px;
+} */
+
+[class~="avaz"] {
+  color: yellow;
+}
+
+[class|="second"] {
+  color: red;
+}
+
+[class^="second"] {
+  color: blue;
+}
+
+[class$="second"] {
+  color: cadetblue;
+}
+
+[class*="eco"] {
+  color: lightgreen;
+}
+
+h2:last-child {
+  color: red;
+}
+
+/* .wrapper:hover [class*="eco"] {
+  background-color: red;
+  color: white;
+} */
+
+.another:hover {
+  background-color: black;
+  color: aqua;
+}
