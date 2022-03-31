@@ -1,0 +1,99 @@
+/* HEX   0-9, a-f,   6 ve ya 3 */
+/* h1 {
+  color: #abcd1a;
+}
+
+
+
+.rgb {
+  color: rgba(0, 255, 21, 0);
+}
+
+.rgb:hover {
+  color: rgba(0, 255, 21, 1);
+}
+
+img {
+  opacity: 0;
+}
+
+img:hover {
+  opacity: 1;
+} */
+
+body {
+  height: 300vh;
+}
+.background .title {
+  background-color: aquamarine;
+}
+
+div.background span.small {
+  background-color: #09ffad;
+}
+
+/* .x-pos {
+  width: 100%;
+  height: 150px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRioEI4ukddcJtBu_a_D5oMI49OLkLSBXPyNw&usqp=CAU);
+  background-repeat: repeat-x;
+}
+
+.y-pos {
+  width: 100%;
+  height: 550px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRioEI4ukddcJtBu_a_D5oMI49OLkLSBXPyNw&usqp=CAU);
+  background-repeat: repeat-y;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.images .image {
+  width: 100%;
+  height: 700px;
+  padding: 20px;
+  /* background-image: url(../images/jour-de-terre-d-environnement-dans-les-mains-des-arbres-cultivant-jeunes-plantes-bokeh-verdissent-la-main-femelle-fond-tenant-l-130247647.jpg); */
+  background-color: #09ffad;
+  background-repeat: no-repeat;
+  border: 5px dashed black;
+  /* background-position: center bottom; */
+  background-size: 400px;
+  /* background-attachment: fixed; */
+
+  background-origin: content-box;
+
+  /* background-clip: content-box; */
+}
+
+.article {
+  font-size: 20px;
+}
+
+.paragraph {
+  font-size: inherit;
+}
+
+/* .wrapper {
+  width: 500px;
+} */
+
+.wrapper .box {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(81, 255, 90);
+  /* margin-left: 20px; */
+  /* margin-bottom: 50px; */
+  /* margin-top: 50px; */
+  /* margin-right: 50px; */
+  /* margin: 50px 40px 30px; */
+  margin: auto auto;
+}
+
+.wrapper .box-2 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(81, 255, 90);
+}
