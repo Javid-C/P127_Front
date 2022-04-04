@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container .box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  padding: 10px;
+  margin: 30px auto;
+  /* border-width: 5px;
+  border-color: yellowgreen;
+  border-style: double; */
+  background-clip: padding-box;
+  border: 2px solid blue;
+  /* border-radius: 4px; */
+  /* border-top-style: solid;
+  border-top-width: 2px; */
+
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  /* outline-width: 5px;
+  outline-color: green;
+  outline-style: dashed; */
+  outline: 5px ridge hotpink;
+  outline-offset: 10px;
+}
+
+.container .box-shadow {
+  width: 300px;
+  height: 300px;
+  background-color: aqua;
+  margin: 50px auto;
+  /* box-shadow: 2px 2px; */
+  box-shadow: 50px -31px 18px -5px rgba(0, 0, 0, 0.75);
+}
+
+.elements {
+  margin: 20px 0 0 20px;
+}
+.elements .box-1 {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  margin: 20px auto;
+}
+
+.elements p {
+  width: 200px;
+  /* height: 50px; */
+  margin-top: 20px;
+  padding-top: 20px;
+  margin-left: 20px;
+}
+
+.elements span {
+  display: inline-block;
+  width: 90px;
+  margin-top: 20px;
+  /* padding-top: 30px; */
+  /* height: 300px; */
+  /* padding-left: 20px; */
+}
+
+.spans {
+  width: 200px;
+  margin: 0 auto;
+}
