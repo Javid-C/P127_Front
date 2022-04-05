@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap");
+i {
+  font-size: 40px;
+  color: red;
+}
+
+/* Font display: FOIT - flash of invisible text, FOUT -flash of unstyled text */
+
+p {
+  /* font-family: "Rubik Microbe", cursive; */
+  font-family: "Roboto";
+  /* font-variant: pre; */
+  /* font-weight: 500; */
+  /* font-size: 50px; */
+}
+
+/* @font-face {
+  font-family: MyFont;
+  src: url(../fonts/Roboto-Regular.ttf);
+  font-display: swap;
+} */
