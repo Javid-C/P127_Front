@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 1368px;
+  margin: 0 auto;
+  background: linear-gradient(
+    45deg,
+    rgba(98, 195, 221, 1) 0%,
+    rgba(233, 91, 240, 1) 100%
+  );
+  height: 100vh;
+  padding-top: 60px;
+}
+
+.container .registration {
+  width: 30%;
+  background-color: white;
+  margin: 0 auto;
+  padding: 20px 0;
+  border-radius: 10px;
+}
+
+.container .registration .title {
+  text-align: center;
+}
+
+.container .registration form {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.container .registration form div {
+  margin: 10px 0;
+}
+
+.container .registration form div label:first-child {
+  display: block;
+  font-size: 13px;
+  color: rgba(114, 114, 114, 0.8);
+}
+
+.container .registration form div input,
+.container .registration form div select,
+.container .registration form div textarea {
+  width: 100%;
+  height: 37px;
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+}
+
+.container .registration form div textarea {
+  height: 120px;
+}
+
+.container .registration form div.btn-icon a {
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  background: linear-gradient(
+    45deg,
+    rgba(98, 195, 221, 1) 0%,
+    rgba(233, 91, 240, 1) 100%
+  );
+  padding: 10px 0;
+  color: white;
+  text-align: center;
+  border-radius: 30px;
+  margin: 10px 0;
+}
