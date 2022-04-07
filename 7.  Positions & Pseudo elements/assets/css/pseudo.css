@@ -1,0 +1,55 @@
+/* h2::after {
+  content: "This is after element";
+}
+
+h2::before {
+  content: "This is before element";
+} */
+
+h2 {
+  position: relative;
+}
+
+h2::after {
+  content: "+9";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  font-size: 16px;
+  position: absolute;
+  right: 15px;
+  color: white;
+}
+
+img {
+  width: 700px;
+}
+
+.image {
+  position: relative;
+  width: 700px;
+}
+
+.image::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.462);
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  /* filter: brightness(50%); */
+}
+
+li {
+  list-style: disc;
+}
+
+li::before {
+  content: "\26C4";
+  color: green;
+  font-size: 20px;
+}

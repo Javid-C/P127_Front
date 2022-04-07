@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 500vh;
+}
+
+.container .box {
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  font-size: 24px;
+  color: white;
+  position: absolute;
+  /* top: 20px; */
+  /* left: 20px; */
+  /* right: 100px;
+  bottom: 150px; */
+  top: 20px;
+  /* left: 20px; */
+  right: 150px;
+}
+
+.container .box-2 {
+  margin-top: 50px;
+  margin-left: 50px;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  font-size: 24px;
+  color: white;
+  position: relative;
+  right: 0;
+}
+
+.container .box-2 .insideBox {
+  width: 50px;
+  height: 50px;
+  background-color: yellowgreen;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.box-fixed {
+  width: 70px;
+  height: 70px;
+  background-color: lightblue;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+}
+
+header {
+  /* position: sticky;
+  bottom: 0px; */
+
+  position: relative;
+  height: 200vh;
+}
+
+.test {
+  height: 200vh;
+}
+
+header nav {
+  position: sticky;
+  bottom: 100px;
+  background-color: blue;
+  height: 70px;
+  width: 100%;
+}
+
+.boxes {
+  width: 600px;
+  height: 600px;
+  background-color: aqua;
+}
+
+.box-1,
+.box-2,
+.box-3 {
+  width: 200px;
+  height: 200px;
+}
+
+.box-1 {
+  background-color: green;
+  position: relative;
+  z-index: -1;
+}
+.box-2 {
+  background-color: rgb(151, 149, 39);
+  position: relative;
+}
+.box-3 {
+  background-color: blueviolet;
+}
+
+.box-1-1,
+.box-1-2 {
+  width: 50px;
+  height: 50px;
+}
+
+.box-1-1 {
+  background-color: red;
+}
+
+.box-1-2 {
+  background-color: rgb(139, 83, 0);
+  position: absolute;
+  right: -30px;
+  bottom: -30px;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
